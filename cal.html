@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>cal</title>
+<style>
+button{
+	background-color:skyblue;
+	width:40px;
+	height:30px;
+}
+.ac{
+	padding:10px;
+}
+td{
+	text-align:center;
+	padding:5px;
+
+}
+</style>
+<script  src="calci.js"></script>
+</head>
+<body>
+<center>
+<table border=2>
+<tr>
+<td colspan=3 ><input type="text" id="out"></td>
+<td><button id="ac" onclick="ac()" >AC</button></td>
+</tr>
+<tr>
+<td><button onclick="onshow(1)">1</button></td>
+<td><button onclick="onshow(2)">2</button></td>
+<td><button onclick="onshow(3)">3</button></td>
+<td><button onclick="onshow('+')">+</button></td>
+</tr>
+<tr>
+<td><button onclick="onshow(4)">4</button></td>
+<td><button onclick="onshow(5)">5</button></td>
+<td><button onclick="onshow(6)">6</button></td>
+<td><button onclick="onshow('-')">-</button></td>
+</tr><tr>
+<td><button onclick="onshow(7)">7</button></td>
+<td><button onclick="onshow(8)">8</button></td>
+<td><button onclick="onshow(9)">9</button></td>
+<td><button onclick="onshow('*')">*</button></td>
+</tr><tr>
+<td><button onclick="onshow(0)">0</button></td>
+<td><button onclick="onshow('%')">%</button></td>
+<td><button onclick="onshow('/')">/</button></td>
+<td><button onclick="calc()">=</button></td>
+</tr>	
+</table>
+</center>
+</body>
+</html
